@@ -61,7 +61,7 @@ for row in range(3):
                 args=(idx,),
                 use_container_width=True
             )
-            st.write("---")
+st.write("---")
 if st.button("🔄 Reset Game"):
         st.session_state.board = [""] * 9
         st.session_state.turn = "X"
